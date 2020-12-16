@@ -17,7 +17,7 @@ aides sociales qui seraient intéressés par ce projet.
 ### COMPETENCES ACQUISES 
 
 * __conception et analyse__
-* __C#/XAML___ 
+* __C#/XAML__ 
 * __travail en équipe__ 
 * __programmation objet__
 
