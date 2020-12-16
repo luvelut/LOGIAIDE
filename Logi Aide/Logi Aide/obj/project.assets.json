@@ -1,0 +1,154 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleTest/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Data": "1.0.0",
+          "Modele": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ConsoleTest.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleTest.dll": {}
+        }
+      },
+      "Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Modele": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Data.dll": {}
+        }
+      },
+      "Images/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Images.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Images.dll": {}
+        }
+      },
+      "Modele/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Images": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Modele.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Modele.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleTest/1.0.0": {
+      "type": "project",
+      "path": "../Console/ConsoleTest.csproj",
+      "msbuildProject": "../Console/ConsoleTest.csproj"
+    },
+    "Data/1.0.0": {
+      "type": "project",
+      "path": "../Data/Data.csproj",
+      "msbuildProject": "../Data/Data.csproj"
+    },
+    "Images/1.0.0": {
+      "type": "project",
+      "path": "../Images/Images.csproj",
+      "msbuildProject": "../Images/Images.csproj"
+    },
+    "Modele/1.0.0": {
+      "type": "project",
+      "path": "../Modele/Modele.csproj",
+      "msbuildProject": "../Modele/Modele.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ConsoleTest >= 1.0.0",
+      "Images >= 1.0.0",
+      "Modele >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lucile\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\lucile\\Desktop\\C#\\Logi Aide\\Logi Aide\\Logi Aide.csproj",
+      "projectName": "Logi Aide",
+      "projectPath": "C:\\Users\\lucile\\Desktop\\C#\\Logi Aide\\Logi Aide\\Logi Aide.csproj",
+      "packagesPath": "C:\\Users\\lucile\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lucile\\Desktop\\C#\\Logi Aide\\Logi Aide\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\lucile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\lucile\\Desktop\\C#\\Logi Aide\\Console\\ConsoleTest.csproj": {
+              "projectPath": "C:\\Users\\lucile\\Desktop\\C#\\Logi Aide\\Console\\ConsoleTest.csproj"
+            },
+            "C:\\Users\\lucile\\Desktop\\C#\\Logi Aide\\Images\\Images.csproj": {
+              "projectPath": "C:\\Users\\lucile\\Desktop\\C#\\Logi Aide\\Images\\Images.csproj"
+            },
+            "C:\\Users\\lucile\\Desktop\\C#\\Logi Aide\\Modele\\Modele.csproj": {
+              "projectPath": "C:\\Users\\lucile\\Desktop\\C#\\Logi Aide\\Modele\\Modele.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Images\bin\Debug\netstandard2.0\Images.deps.json
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Images\bin\Debug\netstandard2.0\Images.dll
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Images\bin\Debug\netstandard2.0\Images.pdb
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Images\obj\Debug\netstandard2.0\Images.g.resources
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Images\obj\Debug\netstandard2.0\Images.csproj.CoreCompileInputs.cache
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Images\obj\Debug\netstandard2.0\Images.AssemblyInfoInputs.cache
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Images\obj\Debug\netstandard2.0\Images.AssemblyInfo.cs
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Images\obj\Debug\netstandard2.0\Images.dll
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Images\obj\Debug\netstandard2.0\Images.pdb

@@ -1,0 +1,30 @@
+﻿<Window x:Class="Logi_Aide.Inscription1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Logi_Aide"
+        mc:Ignorable="d"
+        Title="Inscription1" Height="500" Width="850">
+    <StackPanel Background="Beige">
+        <Image Source="/Images;Component/logoNoir.PNG" Width="150" Margin="0,30,0,5"/>
+        <TextBlock Text="Aide à l'apprentissage et mise" FontFamily="Brush Script MT" FontSize="20" HorizontalAlignment="Center"/>
+        <TextBlock Text="en contact rapide avec des enseignants" FontFamily="Brush Script MT" FontSize="20" HorizontalAlignment="Center"/>
+        <Grid Margin="0,40,0,30">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="1" Foreground="White" FontSize="18" Name="Button_Migrant" Click="Button_Migrant_Click" BorderBrush="Black" Background="#FFC55C2C">
+                <TextBlock TextWrapping="Wrap" TextAlignment="Center" Margin="5,0,5,0">Je suis un jeune migrant</TextBlock>
+            </Button>
+            <Button Grid.Column="3" BorderBrush="Black" FontSize="18" Name="Button_Aide" Click="Button_Aide_Click" Foreground="White" Background="#FFB4B1B0" MinHeight="73">
+                <TextBlock TextWrapping="Wrap" TextAlignment="Center" Margin="5,0,5,0">Je suis une aide sociale ou un enseignant</TextBlock>
+            </Button>
+        </Grid>
+        <Button Content="Annuler" Name="Button_Annuler1" Click="Button_Annuler1_Click" HorizontalAlignment="Center" Padding="5" Background="Red" BorderBrush="DarkRed" FontSize="18" Foreground="White" MinWidth="118"/>
+    </StackPanel>
+</Window>

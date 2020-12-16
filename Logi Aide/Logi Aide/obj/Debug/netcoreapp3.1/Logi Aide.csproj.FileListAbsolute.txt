@@ -1,0 +1,42 @@
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\Logi Aide.exe
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\Logi Aide.deps.json
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\Logi Aide.runtimeconfig.json
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\Logi Aide.runtimeconfig.dev.json
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\Logi Aide.dll
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\Logi Aide.pdb
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Identification.g.cs
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Inscription1.g.cs
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\InscriptionAide.g.cs
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\InscriptionJeune.g.cs
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Quizz.g.cs
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\UCContact.g.cs
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Logi Aide_MarkupCompile.cache
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Logi Aide_MarkupCompile.lref
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Identification.baml
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Inscription1.baml
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\InscriptionAide.baml
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\InscriptionJeune.baml
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Quizz.baml
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\UCContact.baml
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Logi Aide.g.resources
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Logi Aide.csproj.CoreCompileInputs.cache
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Logi Aide.AssemblyInfoInputs.cache
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Logi Aide.AssemblyInfo.cs
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Logi Aide.dll
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Logi Aide.pdb
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Logi Aide.genruntimeconfig.cache
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Logi Aide.csprojAssemblyReference.cache
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\Logi Aide.csproj.CopyComplete
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\Modele.dll
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\Modele.pdb
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\ConsoleTest.exe
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\ConsoleTest.dll
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\Images.dll
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\ConsoleTest.pdb
+C:\Users\lucile\Desktop\ProjetTutore\Logi Aide\Logi Aide\bin\Debug\netcoreapp3.1\Images.pdb

@@ -1,0 +1,88 @@
+﻿<Window x:Class="Logi_Aide.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Logi_Aide"
+        mc:Ignorable="d"
+        Title="Logi Aide" Height="400" Width="800">
+    <DockPanel Background="Beige">
+        <Grid DockPanel.Dock="Left" Width="170">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Image Grid.Row="0" Source="/Images;Component/logoNoir.PNG" Width="170"/>
+            <ListBox ItemsSource="{Binding CollectionInscrits}" x:Name="afficheurInscrit" Grid.Row="1">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <local:UCContact/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Image Grid.Row="2" Source="/Images;Component/contact.PNG"/>
+        </Grid>
+
+        <Grid DockPanel.Dock="Top" DataContext="{Binding ElementName=afficheurInscrit,Path=SelectedItem}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Image Grid.Column="0" Grid.RowSpan="2" Source="{Binding Image}" MaxHeight="150"/>
+            <TextBlock Grid.Column="1" Text="{Binding Nom}" TextWrapping="Wrap" FontSize="27" FontWeight="Bold" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+            <TextBlock Grid.Column="1" Text="{Binding Prenom}" TextWrapping="Wrap" FontSize="27" FontWeight="Bold" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+            <TextBlock Grid.Column="2" Text="{Binding OrdrePrio}" TextWrapping="Wrap" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Right" Padding="10" Margin="20,10,20,10" Background="DarkRed"/>
+            <StackPanel Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2">
+                <TextBlock Text="{Binding affichageAge}"/>
+                <Grid MaxHeight="50" Margin="0,0,20,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Text="Contactez : "/>
+                    <StackPanel  Grid.Column="1">
+                        <Button Content="{Binding Email}"/>
+                        <Button Content="{Binding Tel}"/>
+                    </StackPanel>
+                </Grid>
+                <TextBlock Text="A propos :"/>
+                <TextBlock Margin="5,0,20,0" Text="{Binding Apropos}" TextWrapping="Wrap"/>
+            </StackPanel>
+        </Grid>
+        <Button DataContext="{Binding ElementName=afficheurInscrit,Path=SelectedItem}" Name="Button_Quizz" Click="Button_Quizz_Click" DockPanel.Dock="Bottom" MaxHeight="70" MinWidth="400" Content="FAIRE LE QUIZZ" FontFamily="Century Gothic" FontSize="40" FontWeight="Bold" Background="#d58490"/>
+        <TextBlock  Margin="20"  Text="Détails : " FontSize="18" FontWeight="Bold"/>
+        <ScrollViewer Margin="20">
+            <StackPanel DataContext="{Binding ElementName=afficheurInscrit,Path=SelectedItem}" >
+                <StackPanel Orientation="Horizontal" Width="458">
+                    <TextBlock Text="- Age : " FontSize="16" FontWeight="Bold"/>
+                    <TextBlock Text="{Binding Age}" FontSize="16" Margin="20,0,0,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="458" Margin="0,10,0,10">
+                    <TextBlock Text="- Lieu de naissance :" FontSize="16" FontWeight="Bold"/>
+                    <TextBlock Text="- Compétences :" FontSize="16" Margin="102,0,0,0" FontWeight="Bold"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="458" Margin="0,0,0,10">
+                    <TextBlock Text="{Binding LieuNaissance}" FontSize="16" Width="142"/>
+                    <TextBlock Text="{Binding Competence}" FontSize="16" Width="142" Margin="110,0,0,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="458">
+                    <TextBlock Text="- Vit avec :" FontSize="16" FontWeight="Bold"/>
+                    <TextBlock Text="- Créneaux :" FontSize="16" Margin="170,0,0,10" FontWeight="Bold"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Width="458">
+                    <TextBlock Text="{Binding VitAvec}" FontSize="16" Width="142"/>
+                    <TextBlock Text="{Binding Creneaux}" FontSize="16" Width="142" Margin="110,0,0,0"/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+
+    </DockPanel>
+</Window>

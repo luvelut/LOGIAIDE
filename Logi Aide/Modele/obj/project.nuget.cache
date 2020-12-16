@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wkW0/xTXGN+3ZcQnvblNYw3FE0gYwU6QJLCa7ILQcO4TJRfRAJNhAH6/JUPocstOzQ0zF4g403vnadqz7GBo9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lucile\\Desktop\\C#\\Logi Aide\\Modele\\Modele.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucile\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lucile\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

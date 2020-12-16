@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Identification.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Inscription1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InscriptionJeune.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Quizz.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UCContact.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Identification.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Inscription1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InscriptionJeune.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Quizz.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UCContact.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

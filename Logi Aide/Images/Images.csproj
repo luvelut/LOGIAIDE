@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1.PNG" />
+    <None Remove="2.PNG" />
+    <None Remove="3.PNG" />
+    <None Remove="4.PNG" />
+    <None Remove="5.PNG" />
+    <None Remove="6.PNG" />
+    <None Remove="7.PNG" />
+    <None Remove="8.PNG" />
+    <None Remove="9.PNG" />
+    <None Remove="contact.PNG" />
+    <None Remove="logoNoir.PNG" />
+    <None Remove="modif.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1.PNG" />
+    <Resource Include="2.PNG" />
+    <Resource Include="3.PNG" />
+    <Resource Include="4.PNG" />
+    <Resource Include="5.PNG" />
+    <Resource Include="6.PNG" />
+    <Resource Include="7.PNG" />
+    <Resource Include="8.PNG" />
+    <Resource Include="9.PNG" />
+    <Resource Include="contact.PNG" />
+    <Resource Include="logoNoir.PNG" />
+    <Resource Include="modif.png" />
+  </ItemGroup>
+
+</Project>

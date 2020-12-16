@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Logi_Aide</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="photos\**" />
+    <EmbeddedResource Remove="photos\**" />
+    <None Remove="photos\**" />
+    <Page Remove="photos\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="1.PNG" />
+    <None Remove="contact.PNG" />
+    <None Remove="logoNoir.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Console\ConsoleTest.csproj" />
+    <ProjectReference Include="..\Images\Images.csproj" />
+    <ProjectReference Include="..\Modele\Modele.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Eleve.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

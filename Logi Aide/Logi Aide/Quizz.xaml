@@ -1,0 +1,101 @@
+﻿<Window x:Class="Logi_Aide.Quizz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Logi_Aide"
+        mc:Ignorable="d"
+        Title="Quizz" Height="450" Width="800">
+    <StackPanel Background="#FFF6DCCC">
+        <TextBlock Text="QUIZZ" Background="#FFF6DCCC" FontFamily="Bahnschrift Light" FontSize="36" HorizontalAlignment="Center" Margin="0,40,0,0"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" Text="Compléter les phrases par la bonne réponse :" FontFamily="Bahnschrift Light" FontSize="22" TextDecorations="Underline"/>
+        <Grid Margin="100,15,100,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" HorizontalAlignment="Center" Text="28 - 46 =" FontFamily="Bahnschrift Light" FontSize="20"/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Center" Text="7 x 8 =" FontFamily="Bahnschrift Light" FontSize="20"/>
+        </Grid>
+        <Grid Margin="100,0,100,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <RadioButton Grid.Column="0" HorizontalAlignment="Right">
+                    <TextBlock Text="17" FontSize="16"/>
+                </RadioButton>
+                <RadioButton Grid.Column="1" HorizontalAlignment="Center">
+                    <TextBlock Text="-18" FontSize="16"/>
+                </RadioButton>
+                <RadioButton Grid.Column="2" HorizontalAlignment="Left">
+                    <TextBlock Text="17" FontSize="16"/>
+                </RadioButton>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <RadioButton Grid.Column="0" HorizontalAlignment="Right">
+                    <TextBlock Text="56" FontSize="16"/>
+                </RadioButton>
+                <RadioButton Grid.Column="1" HorizontalAlignment="Center">
+                    <TextBlock Text="49" FontSize="16"/>
+                </RadioButton>
+                <RadioButton Grid.Column="2" HorizontalAlignment="Left">
+                    <TextBlock Text="62" FontSize="16"/>
+                </RadioButton>
+            </Grid>
+        </Grid>
+        <TextBlock Margin="0,20,0,10" HorizontalAlignment="Center" Text="Je cherche un _______." FontFamily="Bahnschrift Light" FontSize="20"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <RadioButton Grid.Column="0" HorizontalAlignment="Right">
+                <TextBlock Text="travaux" FontSize="16"/>
+            </RadioButton>
+            <RadioButton Grid.Column="1" HorizontalAlignment="Center">
+                <TextBlock Text="travaille" FontSize="16"/>
+            </RadioButton>
+            <RadioButton Grid.Column="2" HorizontalAlignment="Left">
+                <TextBlock Text="travail" FontSize="16"/>
+            </RadioButton>
+        </Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,10" Text="Il ____ dans le jardin." FontFamily="Bahnschrift Light" FontSize="20"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <RadioButton Grid.Column="0" HorizontalAlignment="Right">
+                <TextBlock Text="est" FontSize="16"/>
+            </RadioButton>
+            <RadioButton Grid.Column="1" HorizontalAlignment="Center">
+                <TextBlock Text="et" FontSize="16"/>
+            </RadioButton>
+            <RadioButton Grid.Column="2" HorizontalAlignment="Left">
+                <TextBlock Text="ait" FontSize="16"/>
+            </RadioButton>
+        </Grid>
+        <Grid Margin="0,25,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Margin="0,0,10,0" Content="Annuler" Name="Button_AnnulQuizz" Click="Button_AnnulQuizz_Click" HorizontalAlignment="Right" Padding="15,5,15,5" Background="Red" BorderBrush="DarkRed" FontSize="18" Foreground="White"/>
+            <Button Grid.Column="1" Margin="10,0,0,0" Content="Valider" Name="Button_ValidQuizz" Click="Button_ValidQuizz_Click" HorizontalAlignment="Left" Padding="15,5,15,5" Background="Green" BorderBrush="DarkGreen" FontSize="18" Foreground="White"/>
+        </Grid>
+    </StackPanel>
+</Window>
